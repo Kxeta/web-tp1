@@ -1,0 +1,107 @@
+@azul:#00bcd4;
+@branco:#FFFFFF;
+body{
+    font-family: "Dosis";
+    color: @branco;
+    background: @azul;
+    .header{
+            .logo{
+                img{
+                    height: auto;
+                    width: 100%;
+                    max-width: 500px;
+                    margin: auto;
+                    display: block;
+                }
+            }
+}
+@media (max-width:768px){
+    body{
+        .header{
+            }
+            .menu-nav{
+                width: 80%;
+                margin-left: 10%; 
+                ul{ 
+                    width: 100%;
+                    padding: 0px;
+                    li{
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        padding-right: 8%;
+                        padding-left: 8%;
+                        display: inline-block; 
+                    }
+                }
+            }
+        }
+
+    }
+}
+@media (min-width:769px){
+    body{
+        width: 80%;
+        margin-left: 10%;
+        .header{
+            .menu-nav{
+                width: 80%;
+                margin-left: 10%; 
+                ul{ 
+                    width: 100%;
+                    padding: 0px;
+                    li{
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        padding-right: 8%;
+                        padding-left: 8%;
+                        display: inline-block; 
+                    }
+                }
+            }
+        }
+
+    }
+}
+@media (min-width:992px){
+    body{
+        .header{
+            .menu-nav{
+                width: 80%;
+                margin-left: 10%; 
+                ul{ 
+                    width: 100%;
+                    padding: 0px;
+                    li{
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        padding-right: 8%;
+                        padding-left: 8%;
+                        display: inline-block; 
+                    }
+                }
+            }
+        }
+
+    }
+}
+@media (min-width:1200px){
+    body{
+        .header{
+            .menu-nav{
+                width: 80%;
+                margin-left: 10%; 
+                ul{ 
+                    width: 100%;
+                    padding: 0px;
+                    margin: auto;
+                    text-align: justify;
+                    //list-style: outside none none;
+                    li{
+                        display: table-cell; 
+                    }
+                }
+            }
+        }
+
+    }
+}

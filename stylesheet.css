@@ -1,5 +1,1 @@
-p {
-}
-
-p.expandido {
-}
+body{font-family:Dosis;color:#fff;background:#00bcd4}body .header .logo img{height:auto;width:100%;max-width:500px;margin:auto;display:block}@media (max-width:768px){body body .menu-nav{width:80%;margin-left:10%}body body .menu-nav ul{width:100%;padding:0}body body .menu-nav ul li{padding-top:10px;padding-bottom:10px;padding-right:8%;padding-left:8%;display:inline-block}}@media (min-width:769px){body{width:80%;margin-left:10%}body .header .menu-nav{width:80%;margin-left:10%}body .header .menu-nav ul{width:100%;padding:0}body .header .menu-nav ul li{padding-top:10px;padding-bottom:10px;padding-right:8%;padding-left:8%;display:inline-block}}@media (min-width:992px){body .header .menu-nav{width:80%;margin-left:10%}body .header .menu-nav ul{width:100%;padding:0}body .header .menu-nav ul li{padding-top:10px;padding-bottom:10px;padding-right:8%;padding-left:8%;display:inline-block}}@media (min-width:1200px){body .header .menu-nav{width:80%;margin-left:10%}body .header .menu-nav ul{width:100%;padding:0;margin:auto;text-align:justify}body .header .menu-nav ul li{display:table-cell}}
