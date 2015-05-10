@@ -3,13 +3,14 @@
 @cinza:#383838;
 @quase_vermelho:#EF0048;
 @quase_vermelho_escuro:#9F0030;
+@fb:#3b579d;
+@gp:#db4a36;
+@in:#0274b3;
 
 body{
     font-family: "Dosis";
     color: @branco;
     background-color: @azul;    
-    width: 80%;
-    margin-left: 10%;
     a{
         text-decoration: none;
         color: @quase_vermelho;
@@ -65,10 +66,90 @@ body{
                 }
     }
     .conteudo{
+        width: 80%;
+        margin-left: 10%;
         clear: both;
         margin-top: 60px;
         img{
+            margin-left: 10px;
             float:right;
+        }
+    }
+    #rs{
+        clear: both;
+        position: fixed;
+        top: 20%;
+        left: 0;
+        width: 64px;
+        height: 192px;
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            #li-fb{
+                background-color:@fb;
+                width: 8px;
+                height: 64px;
+                transition: width 0.3s; 
+                transition-timing-function: ease-out; 
+                #rs-fb{
+                    width: 8px;
+                    height: 64px;
+                    background:url(Imagens/sprite_rs.png) 0 0 no-repeat;
+                    display: block;
+                    transition: width 0.3s;  
+                    transition-timing-function: ease-out;
+                    &:hover{
+                       width: 64px;
+                    }
+                }
+                &:hover{
+                    width: 64px;
+                }
+            }
+
+            #li-gp{
+                background-color:@gp; 
+                width: 8px;
+                height: 64px;  
+                transition: width 0.3s; 
+                transition-timing-function: ease-out;        
+                #rs-gp{
+                    width: 8px;
+                    height: 64px;     
+                    background:url(Imagens/sprite_rs.png) 0 -74px no-repeat; 
+                    display: block; 
+                    transition: width 0.3s;  
+                    transition-timing-function: ease-out;
+                    &:hover{
+                       width: 64px;
+                    }
+                }
+                &:hover{
+                    width: 64px;
+                }
+            }
+            #li-in{
+                background-color:@in;
+                width: 8px;
+                height: 64px;
+                transition: width 0.3s;  
+                transition-timing-function: ease-out;
+                #rs-in{
+                    width: 8px;
+                    height: 64px;
+                    background:url(Imagens/sprite_rs.png) 0 -148px no-repeat;
+                    display: block;
+                    transition: width 0.3s;  
+                    transition-timing-function: ease-out;
+                    &:hover{
+                       width: 64px;
+                    }
+                }                
+                &:hover{
+                   width: 64px;
+                }
+            }
         }
     }
 }
